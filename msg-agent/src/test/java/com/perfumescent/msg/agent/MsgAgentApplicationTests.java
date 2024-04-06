@@ -1,13 +1,13 @@
-package com.perfumescent.mc;
+package com.perfumescent.msg.agent;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MessageCenterApplicationTests {
+class MsgAgentApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
