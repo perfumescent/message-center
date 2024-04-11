@@ -13,6 +13,8 @@
         <module>msg-agent</module>
         <module>msg-broker</module>
         <module>msg-infrastructure</module>
+        <module>msg-domain</module>
+        <module>msg-extension</module>
     </modules>
     <groupId>com.perfumescent</groupId>
     <artifactId>message-center</artifactId>

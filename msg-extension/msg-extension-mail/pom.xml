@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.perfumescent</groupId>
-        <artifactId>message-center</artifactId>
+        <artifactId>msg-extension</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>msg-infrastructure</artifactId>
+    <artifactId>msg-extension-mail</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -17,11 +17,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.perfumescent</groupId>
-            <artifactId>msg-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>

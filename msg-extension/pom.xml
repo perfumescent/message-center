@@ -9,18 +9,25 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>msg-infrastructure</artifactId>
-
+    <artifactId>msg-extension</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>msg-extension-mail</module>
+    </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.perfumescent</groupId>
-            <artifactId>msg-domain</artifactId>
+            <artifactId>msg-broker</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.perfumescent</groupId>
+            <artifactId>msg-agent</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
