@@ -1,7 +1,7 @@
 package com.perfumescent.msg.ext.mail;
 
 import com.perfumescent.msg.domain.MsgType;
-import lombok.Data;
+import org.springframework.stereotype.Component;
 
 /**
  * MailMsgType
@@ -9,7 +9,7 @@ import lombok.Data;
  * @author yibowen
  * @date 2024/4/11
  */
-@Data
+@Component
 public class MailMsgType implements MsgType {
     @Override
     public String name() {

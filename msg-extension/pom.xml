@@ -22,12 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>com.perfumescent</groupId>
-            <artifactId>msg-broker</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.perfumescent</groupId>
-            <artifactId>msg-agent</artifactId>
+            <artifactId>msg-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

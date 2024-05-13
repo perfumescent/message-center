@@ -31,6 +31,11 @@
 			<groupId>com.perfumescent</groupId>
 			<artifactId>msg-infrastructure</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>		
+		<dependency>
+			<groupId>com.perfumescent</groupId>
+			<artifactId>msg-extension-mail</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
